@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="CTA_StationDisplay.StationDisplayScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CTA_StationDisplay"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="displayGrid" Background="Black" Padding="3" ColumnSpacing="3" RowSpacing="3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>           
+            
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Rectangle Grid.Row="0" Grid.Column="0" Fill="#333333" Width="Auto" Height="Auto"/>
+        <Rectangle Grid.Row="0" Grid.Column="1" Fill="#333333" Width="Auto" Height="Auto"/>
+        <TextBlock x:Name="header" Grid.Row="0" Grid.Column="1" Width="Auto" Height="Auto" Text="    Next 'L' services at" Foreground="White" FontSize="40" Padding="6" FontWeight="Medium"/>
+
+        <!-- Row 1-->
+        <Rectangle Grid.Row="1" Grid.Column="0" Width="Auto" Height="Auto" Fill="#333333"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Width="Auto" Height="Auto" Text="1" Foreground="White" FontSize="32" FontWeight="Medium" HorizontalAlignment="Center"/>
+
+        <!-- Row 2-->
+        <Rectangle Grid.Row="2" Grid.Column="0" Width="Auto" Height="Auto" Fill="#333333"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Width="Auto" Height="Auto" Text="2" Foreground="White" FontSize="32" FontWeight="Medium" HorizontalAlignment="Center"/>
+
+
+        <!-- Row 3-->
+        <Rectangle Grid.Row="3" Grid.Column="0" Width="Auto" Height="Auto" Fill="#333333"/>
+        <TextBlock Grid.Row="3" Grid.Column="0" Width="Auto" Height="Auto" Text="3" Foreground="White" FontSize="32" FontWeight="Medium" HorizontalAlignment="Center"/>
+
+
+        <!-- Row 4-->
+        <Rectangle Grid.Row="4" Grid.Column="0" Width="Auto" Height="Auto" Fill="#333333"/>
+        <TextBlock Grid.Row="4" Grid.Column="0" Width="Auto" Height="Auto" Text="4" Foreground="White" FontSize="32" FontWeight="Medium" HorizontalAlignment="Center"/>
+
+        <!-- Row 5-->
+        <Rectangle Grid.Row="5" Grid.Column="0" Width="Auto" Height="Auto" Fill="#333333"/>
+        <TextBlock Grid.Row="5" Grid.Column="0" Width="Auto" Height="Auto" Text="5" Foreground="White" FontSize="32" FontWeight="Medium" HorizontalAlignment="Center"/>
+
+        <!-- Row 6-->
+        <Rectangle Grid.Row="6" Grid.Column="0" Width="Auto" Height="Auto" Fill="#333333"/>
+        <TextBlock Grid.Row="6" Grid.Column="0" Width="Auto" Height="Auto" Text="6" Foreground="White" FontSize="32" FontWeight="Medium" HorizontalAlignment="Center"/>
+
+
+
+
+    </Grid>
+
+
+
+</Window>
+
+

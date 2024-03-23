@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CTA_StationDisplay (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CTA_StationDisplay (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
