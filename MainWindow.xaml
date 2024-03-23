@@ -31,16 +31,18 @@
         </StackPanel>
 
         <!-- Station Listing -->
-        <VariableSizedWrapGrid x:Name="stationPanel" Grid.Row="2" Height="Auto" Width="Auto" FlowDirection="LeftToRight" Orientation="Horizontal"  Margin="10">
-        </VariableSizedWrapGrid>          
-        
+
+
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Visible" Height="Auto" Width="Auto">
+            <VariableSizedWrapGrid x:Name="stationPanel"  Height="Auto" Width="Auto" FlowDirection="LeftToRight" Orientation="Horizontal"  Margin="10">
+            </VariableSizedWrapGrid>
+        </ScrollViewer>
         <!-- API Key -->
 
         <StackPanel x:Name="apiKeyPanel" Grid.Row="3" Orientation="Horizontal" Width="Auto" Height="Auto" Margin="5" Padding="10" Background="LightGray">
             <TextBlock Text="API Key:  " Height="20"/>
             <TextBox Name="txtApiKey" Width="300" Height="20" Text="Test" BorderBrush="Black" TextChanged="txtApiKey_TextChanged"/>
         </StackPanel>
-
     </Grid>   
     
 
