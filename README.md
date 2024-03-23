@@ -14,6 +14,9 @@ A primitive WinUI3 Client for dispalying real-time CTA 'L' Station arrival infor
 
 ![image](https://github.com/kenaschmidt/CTA_StationDisplay/assets/59780790/d1f3e6e5-9aa7-4ad4-b84e-89f23fa60120)
 
+![image](https://github.com/kenaschmidt/CTA_StationDisplay/assets/59780790/98a23333-f6ec-4f72-adf4-0a4daa8217d3)
+
+
 ## Notes
 
 -Very primitive client, just for fun.
